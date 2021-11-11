@@ -56,11 +56,11 @@ $('#tendangnhap').blur(function(){
 
 if(checkU==true){
 
-    alert("username hợp lệ");
+    alert("Username hợp lệ");
 
 }else{
 
-    alert("username không tồn tại");
+    alert("Username không tồn tại");
 
 }
 
@@ -80,11 +80,11 @@ $('#matkhau').blur(function(){
 
     if(matkhau==listMatKhau[index]){
 
-         alert("đăng nhập thành công");
+         alert("Đăng nhập thành công");
 
     }else{
 
-         alert("sai mật khẩu");
+         alert("Sai mật khẩu");
 
     }
 
@@ -92,7 +92,7 @@ $('#matkhau').blur(function(){
 
 }else{
 
-    alert("vui lòng kiểm tra lại tên đăng nhập");
+    alert("Vui lòng kiểm tra lại tên đăng nhập");
 
 }
 
